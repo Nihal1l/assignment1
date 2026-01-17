@@ -1,0 +1,88 @@
+/* Global Image Reset */
+img {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Horizontal Card (Desktop) */
+.project-card-horizontal {
+    background: transparent;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.project-card-horizontal img {
+    border-radius: 0 !important;
+    /* Removed radius */
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    box-shadow: none !important;
+    /* Removed shadow */
+}
+
+.project-tags .badge {
+    background-color: #2D2D2D;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 50px;
+    /* Pill shape */
+    font-size: 0.85rem;
+}
+
+/* Expertise Pills */
+.skill-category-title {
+    color: var(--accent-color);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.skill-pill {
+    background-color: #2D2D2D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-pill:hover {
+    background-color: var(--accent-color);
+    color: #000;
+}
+
+/* Contact Form Input Override */
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Navbar Logo & Spacing */
+.navbar-brand img {
+    max-height: 45px;
+    /* Adjust based on logo appearance */
+    width: auto;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* Normal/Medium weight, not bold */
+    text-transform: none !important;
+    /* Ensure Normal Case */
+    letter-spacing: 0.02em;
+}
+
+/* Hero Image (Simple Rectangular) */
+.hero-img {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: block;
+}
